@@ -23,7 +23,7 @@ public class LinkedListMain {
         System.out.println(list.getLength());
         list.printLinkedList();
         list.remove(4);
-        System.out.println("After removing 4");
+        System.out.println("After removing 4 -- this doesnt exist in the linked list");
         System.out.println(list.getLength());
         list.printLinkedList();
     }
