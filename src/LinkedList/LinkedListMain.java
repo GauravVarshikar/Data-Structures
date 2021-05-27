@@ -2,7 +2,7 @@ package LinkedList;
 
 public class LinkedListMain {
     public static void main(String[] args) {
-        MyLinkedList list = new MyLinkedList(1);
+        MyDoublyLinkedList list = new MyDoublyLinkedList(1);
         list.append(2);
         list.prepend(0);
         list.insert(2, 10);

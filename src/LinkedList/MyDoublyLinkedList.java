@@ -11,12 +11,12 @@ class Node {
     }
 }
 
-public class MyLinkedList {
+public class MyDoublyLinkedList {
     private Node head;
     private Node tail;
     private int length;
 
-    public MyLinkedList(int value){
+    public MyDoublyLinkedList(int value){
         head = new Node(value);
         tail = head;
         length++;
