@@ -16,4 +16,6 @@ You may refer to the solution and share your feedback.
   🥞 Contains Duplicate? <br>
   
  <b>Linked List</b> <br>
-  🧈 Custom implementation of a Doubly Linkedlist 
+  🧈 Custom implementation of a Doubly Linkedlist <br>
+  🍞 Custom implementation of Single Linkedlist <br> 
+  🥐 Reverse Single Linkedlist In-Place
