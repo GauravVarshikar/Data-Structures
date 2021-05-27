@@ -3,19 +3,23 @@ This is a custom project capturing the Data Structures and Algorithm problems th
 You may refer to the solution and share your feedback.
 
 <b>Arrays</b>:<br>
-  🍕 Reverse a string <br>
-  🍔 2 numbers sum in an array <br>
-  🍟 Merge sorted arrays <br>
-  🌭 Max subarray sum <br>
-  🍿 Contains duplicate <br>
-  🥓 Move zeroes <br>
-  🍳 Rotate Array<br>
+    🍕 Reverse a string <br>
+    🍔 2 numbers sum in an array <br>
+    🍟 Merge sorted arrays <br>
+    🌭 Max subarray sum <br>
+    🍿 Contains duplicate <br>
+    🥓 Move zeroes <br>
+    🍳 Rotate Array<br>
 
 <b>Hash Tables</b><br>
-  🧇 First Recurring Character <br>
-  🥞 Contains Duplicate? <br>
+    🧇 First Recurring Character <br>
+    🥞 Contains Duplicate? <br>
   
- <b>Linked List</b> <br>
-  🧈 Custom implementation of a Doubly Linkedlist <br>
-  🍞 Custom implementation of Single Linkedlist <br> 
-  🥐 Reverse Single Linkedlist In-Place
+<b>Linked List</b> <br>
+    🧈 Custom implementation of a Doubly Linkedlist <br>
+    🍞 Custom implementation of Single Linkedlist <br> 
+    🥐 Reverse Single Linkedlist In-Place
+  
+<b>Stacks</b> <br>
+    🥨 Custom implementation of Stack using LinkedList <br>
+    🥯 Custom implementation of Stack using Array <br>
