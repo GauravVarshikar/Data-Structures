@@ -13,4 +13,7 @@ You may refer to the solution and share your feedback.
 
 <b>Hash Tables</b><br>
   🧇 First Recurring Character <br>
+  🥞 Contains Duplicate? <br>
   
+ <b>Linked List</b> <br>
+  🧈 Custom implementation of a Doubly Linkedlist 
