@@ -14,7 +14,7 @@ class Node {
 }
 
 public class BinarySearchTree {
-    private Node root;
+    public Node root;
     public void insert(int val){
         Node newNode = new Node(val);
         if(root == null) {

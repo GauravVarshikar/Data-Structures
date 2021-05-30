@@ -16,13 +16,14 @@ You may refer to the solution and share your feedback.
     🥞 Contains Duplicate? <br>
   
 <b>Linked List</b> <br>
-    🧈 Custom implementation of a Doubly Linkedlist <br>
-    🍞 Custom implementation of Single Linkedlist <br> 
-    🥐 Reverse Single Linkedlist In-Place
+    🧈 Custom implementation of a Doubly LinkedList <br>
+    🍞 Custom implementation of Single LinkedList <br> 
+    🥐 Reverse Single LinkedList In-Place
   
 <b>Stacks</b> <br>
     🥨 Custom implementation of Stack using LinkedList <br>
     🥯 Custom implementation of Stack using Array <br>
     
 <b>Binary Search Tree</b> <br>
-    🥖 Custom implementation of Binary Search Tree using recursion
+    🥖 Custom implementation of Binary Search Tree using recursion <br>
+    🧀 Tree Traversal with recursion - PreOrder, InOrder and PostOrder <br>
