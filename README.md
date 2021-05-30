@@ -23,3 +23,6 @@ You may refer to the solution and share your feedback.
 <b>Stacks</b> <br>
     🥨 Custom implementation of Stack using LinkedList <br>
     🥯 Custom implementation of Stack using Array <br>
+    
+<b>Binary Search Tree</b> <br>
+    🥖 Custom implementation of Binary Search Tree using recursion
