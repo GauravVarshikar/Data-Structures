@@ -29,3 +29,4 @@ You may refer to the solution and share your feedback.
     🧀 Tree Traversal with recursion - PreOrder, InOrder and PostOrder <br>
     🥗 Check if two binary trees are identical or not <br>
     🥙 Convert binary tree to its sum tree <br>
+    🥪 Determine if two given nodes are cousins of each other or not <br>
