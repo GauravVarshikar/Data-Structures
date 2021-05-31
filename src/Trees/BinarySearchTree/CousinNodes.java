@@ -1,5 +1,8 @@
 package Trees.BinarySearchTree;
 
+import java.util.ArrayList;
+import java.util.List;
+
 class NodeLevelPair {
     public Node node;
     public int level;
@@ -14,15 +17,44 @@ public class CousinNodes {
         // tree are cousins of each other only if they have different parents, but they have the same level.
 
         BinarySearchTree bst = BSTMain.populateTree();
-        System.out.println("Are they cousins? " + areCousins(bst.root, 1, 6));
-        System.out.println("Are they cousins? " + areCousins(bst.root, 1, 4));
-        System.out.println("Are they cousins? " + areCousins(bst.root, 1, 14));
-        System.out.println("Are they cousins? " + areCousins(bst.root, 1, 12));
+        System.out.println("Are they cousins? " + areCousins(bst.root, 6));
+        System.out.println("Are they cousins? " + areCousins(bst.root, 4));
+        System.out.println("Are they cousins? " + areCousins(bst.root, 14));
+        System.out.println("Are they cousins? " + areCousins(bst.root, 12));
+
+        // Given a binary tree, print all cousins of a given node. Two nodes of a binary tree are cousins of each
+        // other only if they have different parents, but they have the same level.
+        int elem = 1;
+        System.out.println("Cousins of " + elem + " are :" + findCousins(bst.root, elem));
+        elem = 3;
+        System.out.println("Cousins of " + elem + " are :" + findCousins(bst.root, elem));
+        elem = 5;
+        System.out.println("Cousins of " + elem + " are :" + findCousins(bst.root, elem));
     }
 
-    private static boolean areCousins(Node root, int elem1, int elem2)  {
-        NodeLevelPair parent1 = findParentAndLevel(root, 0, elem1);
-        System.out.println("Element1: " + elem1 + " Parent1: " + parent1.node.value + " Level1: " + parent1.level);
+    private static String findCousins(Node root, int elem) {
+        NodeLevelPair parent = findParentAndLevel(root, 0, elem);
+        List<Integer> cousins = new ArrayList<>();
+        getChildrenOfOtherParents(root, 0, parent, cousins);
+        return cousins.toString();
+    }
+
+    private static void getChildrenOfOtherParents(Node root, int level, NodeLevelPair parent, List<Integer> cousins) {
+       if (root == null) return;
+       // Check if the node is at the same level as the parent of given element and the value dont match with that of parent
+        // add the left and right child in the list of cousins
+       if(level == parent.level && root.value != parent.node.value){
+           if(root.left != null) cousins.add(root.left.value);
+           if(root.right != null) cousins.add(root.right.value);
+       }
+       level++;
+       getChildrenOfOtherParents(root.left, level, parent, cousins);
+       getChildrenOfOtherParents(root.right, level, parent, cousins);
+    }
+
+    private static boolean areCousins(Node root, int elem2)  {
+        NodeLevelPair parent1 = findParentAndLevel(root, 0, 1);
+        System.out.println("Element1: " + 1 + " Parent1: " + parent1.node.value + " Level1: " + parent1.level);
         NodeLevelPair parent2 = findParentAndLevel(root, 0, elem2);
         System.out.println("Element2: " + elem2 + " Parent2: " + parent2.node.value + " Level2: " + parent2.level);
         return parent1.node.value != parent2.node.value && parent1.level == parent2.level;
