@@ -28,3 +28,4 @@ You may refer to the solution and share your feedback.
     🥖 Custom implementation of Binary Search Tree using recursion <br>
     🧀 Tree Traversal with recursion - PreOrder, InOrder and PostOrder <br>
     🥗 Check if two binary trees are identical or not <br>
+    🥙 Convert binary tree to its sum tree <br>
