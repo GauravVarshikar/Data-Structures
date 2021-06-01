@@ -33,3 +33,4 @@ You may refer to the solution and share your feedback.
     🌮 Find cousins of a given node <br>
     🌯 Print all paths in a given tree <br>
     🥫 Print all ancestors of a given node in a tree <br>
+    🍖 Print the mirror tree of a binary tree <br>
