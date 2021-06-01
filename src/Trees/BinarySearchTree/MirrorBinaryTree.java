@@ -22,6 +22,4 @@ public class MirrorBinaryTree {
         node.right = leftNode;
         return node;
     }
-
-
 }
