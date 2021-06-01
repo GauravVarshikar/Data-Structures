@@ -4,7 +4,7 @@ import java.util.Stack;
 
 public class FindAncestors {
     public static void main(String[] args) {
-        //Print all ancestors of a given node in a tree
+        //Print all ancestors of a given node in a binary search tree
 
         BinarySearchTree bst = BSTMain.populateTree();
         System.out.println("Find Ancestors");
