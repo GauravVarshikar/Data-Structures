@@ -32,3 +32,4 @@ You may refer to the solution and share your feedback.
     🥪 Determine if two given nodes are cousins of each other or not <br>
     🌮 Find cousins of a given node <br>
     🌯 Print all paths in a given tree <br>
+    🥫 Print all ancestors of a given node in a tree <br>
