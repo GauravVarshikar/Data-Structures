@@ -39,11 +39,11 @@ public class TreeFromTraversal {
          }
          AtomicInteger index;
          if(tra1.equals(IN_ORDER) && tra2.equals(PRE_ORDER)) {
-             index = new AtomicInteger(0);
+             index = new AtomicInteger(0); //in preorder traversal first node is the root node
              return constructTreeFromInAndPre(0, inOrder.length - 1, order2, inOrderMap, index);
          }
          else if(tra1.equals(IN_ORDER) && tra2.equals(POST_ORDER)) {
-             index = new AtomicInteger(inOrder.length-1);
+             index = new AtomicInteger(inOrder.length-1); //in postorder last node is the root node
              return constructTreeFromInAndPost(0, inOrder.length - 1, order2, inOrderMap, index);
          }
          return null;
