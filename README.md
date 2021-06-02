@@ -24,7 +24,7 @@ You may refer to the solution and share your feedback.
     🥨 Custom implementation of Stack using LinkedList <br>
     🥯 Custom implementation of Stack using Array <br>
     
-<b>Binary Search Tree</b> <br>
+<b>Binary Tree</b> <br>
     🥖 Custom implementation of Binary Search Tree using recursion <br>
     🧀 Tree Traversal with recursion - PreOrder, InOrder and PostOrder <br>
     🥗 Check if two binary trees are identical or not <br>
@@ -34,3 +34,4 @@ You may refer to the solution and share your feedback.
     🌯 Print all paths in a given tree <br>
     🥫 Print all ancestors of a given node in a tree <br>
     🍖 Print the mirror tree of a binary tree <br>
+    🍗 Construct tree from a given Inorder and PreOrder tree traversal <br>
