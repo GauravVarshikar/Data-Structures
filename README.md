@@ -35,6 +35,7 @@ You may refer to the solution and share your feedback.
     🥫 Print all ancestors of a given node in a tree <br>
     🍖 Print the mirror tree of a binary tree <br>
     🍗 Construct tree from a given Inorder and PreOrder, from Inorder and PostOrder, and from PreOrder and PostOrder <br>
+    🍠 Check if the given tree is a Binary Search Tree <br>
 
 <b>Graphs </b> <br>
     🥩 Custom implementation of graph having an adjacency list
