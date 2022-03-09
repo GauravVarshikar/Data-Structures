@@ -15,7 +15,7 @@ public class MoveZeroes {
         Output: [0]
          */
         int[] arr = new int[]{0,1,0,3,12};
-        System.out.println(Arrays.toString(moveZeroes(arr)));
+        System.out.println(Arrays.toString(moveZeroesLiner(arr)));
 
         int[] arr1 = new int[]{0};
         System.out.println(Arrays.toString(moveZeroes(arr1)));
@@ -32,5 +32,23 @@ public class MoveZeroes {
             }
         }
         return arr;
+    }
+
+    private static int[] moveZeroesLiner(int[] arr){
+        int[] result = new int[arr.length];
+        int countOfZeroes = 0;
+        int i=0;
+
+        for(int a: arr){
+            if(a == 0){
+                countOfZeroes++;
+            } else {
+                result[i++] = a;
+            }
+        }
+        for(int j=0;j<countOfZeroes;j++){
+            result[i++] = 0;
+        }
+        return result;
     }
 }
